@@ -17,6 +17,9 @@ body {
     margin: 0px;
     background-color: #030328;
     font-family: 'Gilroy-Light';
+    height: 100vh;
+
+    
 }
 
 body, a {
@@ -99,4 +102,12 @@ a {
 #acao>p{
     font-size: 0.9em;
     text-align: center;
+}
+
+#apresentacao>video {
+    z-index: -1000;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
 }
